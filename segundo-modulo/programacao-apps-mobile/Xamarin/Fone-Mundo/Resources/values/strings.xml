@@ -1,0 +1,5 @@
+<resources>
+	<string name="BotaoHistoricoTradutor">Histórico de Tradução</string>
+    <string name="app_name">Fone_Mundo</string>
+    <string name="action_settings">Settings</string>
+</resources>

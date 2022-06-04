@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poco", "Poco.csproj", "{19C01FA7-87C6-4944-AC86-CE1D2EA0EB2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C01FA7-87C6-4944-AC86-CE1D2EA0EB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C01FA7-87C6-4944-AC86-CE1D2EA0EB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C01FA7-87C6-4944-AC86-CE1D2EA0EB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C01FA7-87C6-4944-AC86-CE1D2EA0EB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83FA5DB-C560-4D06-847A-0C3A307C9151}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="50px"
+        android:layout_height="match_parent"
+        android:id="@+id/lista_transporte_personalizada_imagem" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        </LinearLayout>
+    <TextView
+        android:text="Título"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/lista_transporte_personalizada_nome"/>
+    <TextView
+        android:text="descrição"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/lista_transporte_personalizada_descricao"/>
+</LinearLayout>

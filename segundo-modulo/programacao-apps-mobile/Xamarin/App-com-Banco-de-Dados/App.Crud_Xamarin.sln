@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Crud_Xamarin", "App.Crud_Xamarin.csproj", "{18382484-EDF7-407B-8F0A-09157C91CCD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18382484-EDF7-407B-8F0A-09157C91CCD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {106303D0-9E65-4ED2-9488-7E7961E522D2}
+	EndGlobalSection
+EndGlobal

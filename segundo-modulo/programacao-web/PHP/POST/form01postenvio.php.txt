@@ -1,0 +1,61 @@
+<html>
+<head><title>exercicio formulario</title></head>
+<body>
+<h2 align="center">www.terra.com.br:</h2>
+<br>
+<form action="form02postrec.php" method="POST">
+Nome: <input type="text" name="nome" size="30" maxlenght="30">
+<br>
+Endereço:<input type="text" name="endereco" size="40" maxlenght="40">
+<br>
+Estado:
+<select name="estado" size="1">
+<option value="AC">AC</option>
+<option value="Al">Al</option>
+<option value="AM">AM</option>
+<option value="AP">AP</option>
+<option value="BA">BA</option>
+<option value="CE">CE</option>
+<option value="DF">DF</option>
+<option value="ES">ES</option>
+<option value="GO">GO</option>
+<option value="MA">MA</option>
+<option value="MG">MG</option>
+<option value="MS">MS</option>
+<option value="MT">MT</option>
+<option value="PA">PA</option>
+<option value="PB">PB</option>
+<option value="PI">PI</option>
+<option value="PR">PR</option>
+<option value="RJ">RJ</option>
+<option value="RN">RN</option>
+<option value="RS">RS</option>
+<option value="RR">RR</option>
+<option value="RO">RO</option>
+<option value="SC">SC</option>
+<option value="SE">SE</option>
+<option value="SP" selected>SP</option>
+<option value="TO">TO</option>
+</select>
+<br>
+sexo:<br>
+<input type="radio" value="masculino" name="sexo"> masculino
+<input type="radio" value="feminino" name="sexo" checked> feminino
+<br>
+profissão:
+<select name="profissao" size="1">
+<option value="programador">programador</option>
+<option value="desenhista">desenhista</option>
+<option value="engenheiro">engenheiro</option>
+<option value="medico">médico</option>
+</select>
+<br>
+Preferências<br>
+<input type="checkbox" value="esporte" name="opt1" checked>esporte<br>
+<input type="checkbox" value="musica" name="opt2">música<br>
+<input type="checkbox" value="carro" name="opt3">carros<br>
+<input type="submit" value="enviar">
+<input type="reset" value="limpar">
+</form>
+</body>
+</html>
