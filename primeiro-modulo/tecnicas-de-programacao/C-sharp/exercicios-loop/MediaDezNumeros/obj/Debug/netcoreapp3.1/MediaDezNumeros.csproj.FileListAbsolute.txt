@@ -1,0 +1,12 @@
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.exe
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.deps.json
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.runtimeconfig.json
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.runtimeconfig.dev.json
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.dll
+C:\Users\dudu_\Desktop\MediaDezNumeros\bin\Debug\netcoreapp3.1\MediaDezNumeros.pdb
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.csproj.CoreCompileInputs.cache
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.AssemblyInfoInputs.cache
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.AssemblyInfo.cs
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.dll
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.pdb
+C:\Users\dudu_\Desktop\MediaDezNumeros\obj\Debug\netcoreapp3.1\MediaDezNumeros.genruntimeconfig.cache

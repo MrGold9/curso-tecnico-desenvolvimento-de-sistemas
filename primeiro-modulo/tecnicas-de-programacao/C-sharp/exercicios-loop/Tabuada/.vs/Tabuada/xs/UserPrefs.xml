@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{2F8A499A-FC49-4E9B-86F3-6E309DB75FD6}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tabuada PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tabuada" expanded="True">
+            <Node name="Tabuada" expanded="True">
+              <Node name="Tabuada.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

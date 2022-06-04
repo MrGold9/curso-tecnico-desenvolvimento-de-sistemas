@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MLXgmHR2ZLbNoHhdZXinPpqM5abcv96cvAZT+cBBETP53X+DTIzt3Q+OX71Y9C88ho3l9jJaptIGea+6950V9g==",
+  "success": true,
+  "projectFilePath": "E:\\Desenvolvimento de Sistemas\\1º MÓDULO\\Programação e Algoritmos\\Exercicio_Fixacao03\\Exercicio_Fixacao03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dudu_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\dudu_\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\dudu_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\dudu_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

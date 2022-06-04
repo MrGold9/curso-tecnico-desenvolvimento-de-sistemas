@@ -1,0 +1,13 @@
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.exe
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.deps.json
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.runtimeconfig.json
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.runtimeconfig.dev.json
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.dll
+C:\Users\dudu_\Desktop\Teste_De_Soma\bin\Debug\netcoreapp3.1\Teste_De_Soma.pdb
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.csprojAssemblyReference.cache
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.csproj.CoreCompileInputs.cache
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.AssemblyInfoInputs.cache
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.AssemblyInfo.cs
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.dll
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.pdb
+C:\Users\dudu_\Desktop\Teste_De_Soma\obj\Debug\netcoreapp3.1\Teste_De_Soma.genruntimeconfig.cache

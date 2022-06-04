@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste_De_Soma", "Teste_De_Soma.csproj", "{7DA140C8-65ED-4AE9-B8FA-3D5E5E67BDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA140C8-65ED-4AE9-B8FA-3D5E5E67BDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA140C8-65ED-4AE9-B8FA-3D5E5E67BDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA140C8-65ED-4AE9-B8FA-3D5E5E67BDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA140C8-65ED-4AE9-B8FA-3D5E5E67BDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B90AE84B-84E7-4602-8AAC-4F9B4B30AF3D}
+	EndGlobalSection
+EndGlobal

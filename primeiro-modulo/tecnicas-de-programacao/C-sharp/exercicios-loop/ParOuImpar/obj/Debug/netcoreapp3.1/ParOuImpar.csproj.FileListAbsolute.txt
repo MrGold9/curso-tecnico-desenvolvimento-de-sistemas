@@ -1,0 +1,13 @@
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.exe
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.deps.json
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.runtimeconfig.json
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.runtimeconfig.dev.json
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.dll
+C:\Users\dudu_\Desktop\ParOuImpar\bin\Debug\netcoreapp3.1\ParOuImpar.pdb
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.csprojAssemblyReference.cache
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.csproj.CoreCompileInputs.cache
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.AssemblyInfoInputs.cache
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.AssemblyInfo.cs
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.dll
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.pdb
+C:\Users\dudu_\Desktop\ParOuImpar\obj\Debug\netcoreapp3.1\ParOuImpar.genruntimeconfig.cache
