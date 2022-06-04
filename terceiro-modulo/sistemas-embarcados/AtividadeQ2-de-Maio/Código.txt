@@ -1,0 +1,50 @@
+#include<Servo.h>
+const int ledVermelho=13;
+const int ledVerde=4;
+const int sensor=7;
+Servo servo;
+
+
+void setup()
+{
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledVerde, OUTPUT);
+  servo.attach(3);
+}
+
+void loop()
+{
+  long duracao, cm;
+
+  pinMode(sensor, OUTPUT);
+  digitalWrite(sensor, LOW);
+  delayMicroseconds(2);
+  digitalWrite(sensor, HIGH);
+  delayMicroseconds(5);
+  digitalWrite(sensor, LOW);
+
+  pinMode(sensor, INPUT);
+  duracao = pulseIn(sensor, HIGH);
+
+  cm = duracao/29/2;
+  
+  
+  delay(5);
+  
+  
+  
+  if(cm < 100)
+  {
+    digitalWrite(ledVermelho, LOW);
+    digitalWrite(ledVerde, HIGH);
+    servo.write(180);
+    delay(100);
+  }
+  else
+  {
+    digitalWrite(ledVermelho, HIGH);
+    digitalWrite(ledVerde, LOW);
+    servo.write(0);
+    delay(100);
+  }
+}

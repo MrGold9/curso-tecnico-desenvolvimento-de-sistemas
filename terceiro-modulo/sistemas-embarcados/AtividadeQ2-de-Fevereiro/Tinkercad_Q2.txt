@@ -1,0 +1,41 @@
+int ledVermelhoA=10;
+int ledVermelhoB=9;
+int ledAmareloA=8;
+int ledAmareloB=7;
+int ledVerdeA=6;
+int ledVerdeB=5;
+
+
+void setup()
+{
+  pinMode(ledVermelhoA, OUTPUT);
+  pinMode(ledVermelhoB, OUTPUT);
+  pinMode(ledAmareloA, OUTPUT);
+  pinMode(ledAmareloB, OUTPUT);
+  pinMode(ledVerdeA, OUTPUT);
+  pinMode(ledVerdeB, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(ledVerdeA, HIGH);
+  digitalWrite(ledVerdeB, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledVerdeA, LOW);
+  digitalWrite(ledVerdeB, LOW);
+  
+  
+  digitalWrite(ledAmareloA, HIGH);
+  digitalWrite(ledAmareloB, HIGH);
+  delay(2000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledAmareloA, LOW);
+  digitalWrite(ledAmareloB, LOW);
+  
+  
+  digitalWrite(ledVermelhoA, HIGH);
+  digitalWrite(ledVermelhoB, HIGH);
+  delay(5000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledVermelhoA, LOW);
+  digitalWrite(ledVermelhoB, LOW);
+  
+}

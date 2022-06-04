@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/PsTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imgPsTres" />
+    <TextView
+        android:text="Playstation 3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblPsTres" />
+    <TextView
+        android:text="Foi o primeiro console a usar o disco Blu-ray como formato de mídia para gravação de jogos, seu meio de armazenamento primário. Foi o primeiro console da Sony a ter um Sistema On-line a PSN, a PlayStation Network, e a sua conectividade remota com o PlayStation Portable e PlayStation Vita, sendo capaz de controlar remotamente os dispositivos. Em setembro de 2009, o modelo Slim do PlayStation 3 foi lançado. Foi removida a capacidade de hardware para executar os jogos do PlayStation 2. Era mais leve e mais fino do que a versão original, e apresentava um logotipo redesenhado e design de marketing, bem como uma pequena mudança de start-up no software. Um novo modelo denominado Super Slim foi lançado no final de 2012, refinando e redesenhando o console."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPsTres" />
+</LinearLayout>

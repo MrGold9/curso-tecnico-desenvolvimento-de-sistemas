@@ -1,0 +1,53 @@
+const int pinoLDR=A5;
+const int pinoSensorTemp=A0;
+const int ledVermelho=3;
+const int ledAmarelo=2;
+
+int valorLDR = 0;
+float tensao;
+float tempC;
+
+
+void setup()
+{
+  pinMode(pinoLDR, INPUT);
+  pinMode(pinoSensorTemp, INPUT);
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledAmarelo, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{ 
+  valorLDR=analogRead(pinoLDR);
+  tensao=analogRead(pinoSensorTemp);
+  
+  Serial.println(valorLDR);
+    Serial.println(tempC);
+  delay(100);
+
+  tensao=(tensao/1024)*5;
+
+  tempC=(tensao-0.5)*100;
+  
+
+  if(tempC > 37.8)
+  {
+    digitalWrite(ledVermelho,LOW);
+    digitalWrite(ledAmarelo,LOW);
+    delay(100);
+  }
+  else if(tempC < 37.4)
+  {
+    digitalWrite(ledVermelho,HIGH);
+    digitalWrite(ledAmarelo,LOW);
+    delay(100);
+  }
+  if (tempC < 37.4 && valorLDR < 535)
+  {
+    digitalWrite(ledAmarelo,HIGH);
+    delay(1000);
+    digitalWrite(ledAmarelo,LOW);
+    delay(500);
+  }
+}

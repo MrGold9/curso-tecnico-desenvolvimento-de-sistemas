@@ -1,0 +1,62 @@
+#include<Servo.h>
+const int ledVerde=13;
+const int ledVermelho=12;
+const int ledAmarelo=11;
+const int botao=7;
+
+int estadoBotao=0;
+
+Servo motor;
+
+int cont=0;
+
+
+void setup()
+{
+  pinMode(ledVerde,OUTPUT);
+  pinMode(ledVermelho,OUTPUT);
+  pinMode(ledAmarelo,OUTPUT);
+  pinMode(botao,INPUT);
+  motor.attach(3);
+}
+
+void loop()
+{
+  
+  delay(10);
+  
+  estadoBotao=digitalRead(botao);
+  if(estadoBotao==HIGH)
+  {
+    digitalWrite(ledVermelho, LOW);
+    digitalWrite(ledVerde, HIGH);
+    motor.write(90);
+    delay(500);
+    
+    
+    estadoBotao=digitalRead(botao);
+    if(estadoBotao==LOW)
+    {
+      digitalWrite(ledVerde, LOW);
+      while (cont <= 2) 
+  {
+    delay(1000);
+    digitalWrite(ledAmarelo, HIGH);
+    delay(500);
+    digitalWrite(ledAmarelo, LOW);
+    cont++;
+  }
+    }
+  }
+  
+  
+  else
+  {
+    motor.write(0);
+    digitalWrite(ledVermelho, HIGH);
+    digitalWrite(ledVerde, LOW);
+    digitalWrite(ledAmarelo, LOW);
+  }
+  
+  
+}

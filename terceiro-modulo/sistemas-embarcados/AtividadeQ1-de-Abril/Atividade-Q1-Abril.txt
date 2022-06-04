@@ -1,0 +1,51 @@
+#include "Servo.h"
+Servo servo1;
+Servo servo2;
+const int ledAmarelo1=13;
+const int ledAmarelo2=2;
+const int pinoPot=A0;
+
+int valorPot=0;
+int anguloServo1=0;
+int anguloServo2=0;
+
+
+void setup()
+{
+  pinMode(ledAmarelo1, OUTPUT);
+  pinMode(ledAmarelo2, OUTPUT);
+  pinMode(pinoPot, INPUT);
+  servo1.attach(A1);
+  servo2.attach(A2);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  if(valorPot >= 0 && valorPot <= 327)
+  {
+    digitalWrite(ledAmarelo1, LOW);
+    digitalWrite(ledAmarelo1, HIGH);
+  }
+  else if(valorPot >= 675 && valorPot <= 1023)
+  {
+    digitalWrite(ledAmarelo2, LOW);
+    digitalWrite(ledAmarelo2, HIGH);
+  }
+  else
+  {
+    digitalWrite(ledAmarelo1, LOW);
+    digitalWrite(ledAmarelo2, LOW);
+  }
+  
+  Serial.print(valorPot);
+  Serial.print("-");
+  
+  valorPot=analogRead(pinoPot);
+  anguloServo1=map(valorPot, 0, 1023, 0, 180);
+  anguloServo2=map(valorPot, 0, 1023, 0, 180);
+  servo1.write(anguloServo1);
+  servo2.write(anguloServo2);
+  delay(5);
+
+}

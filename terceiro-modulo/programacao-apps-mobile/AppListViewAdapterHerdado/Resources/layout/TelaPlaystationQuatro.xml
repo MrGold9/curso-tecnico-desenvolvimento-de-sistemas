@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:src="@drawable/PsQuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/imgPsQuatro" />
+        <TextView
+            android:text="Playstation 4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblPsQuatro" />
+        <TextView
+            android:text="A consola permite vários métodos de interactividade com outros serviços e aparelhos incluindo; a PlayStation App, uma aplicação que melhora e expande a interactividade com a consola usando aparelhos iOS e Android; o Remote Play, que permite activar a PlayStation 4 à distância para continuar a jogar num segundo ecrã via PlayStation Vita ou dispositivos Xperia; o PlayStation Now, um serviço de computação em nuvem baseado em Gaikai, que oferece videojogos e outros conteúdos em stream. Pela incorporação de um botão de partilha (SHARE) no novo comando, o DualShock 4, faz com que seja possível exibir conteúdo que está a ser jogado e transmitido ao vivo aos amigos, ou mesmo partilhar jogos através da característica ‘Share Play’, desta maneira a Sony planeia colocar assim mais foco nos aspectos sociais da consola."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPsQuatro" />
+    </LinearLayout>
+</RelativeLayout>
